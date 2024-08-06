@@ -1,0 +1,168 @@
+.ehe {
+  padding: 2rem 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.navi {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.links {
+  text-decoration: none;
+  transition: all 0.3s ease;
+  animation: moveCommon 3s infinite ease-in-out;
+  font-size: 22px;
+  color: rgb(21, 152, 156);
+  font-weight: bold;
+  opacity: 0.6;
+  transition: all 0.2s ease;
+}
+
+.linknav1, .linknav2, .linknav3 {
+  transition: all 0.3s ease;
+}
+
+.linknav1:hover, .linknav2:hover, .linknav3:hover {
+  margin-top: 0.3rem;
+}
+
+@keyframes moveCommon {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveUpTop {
+  0% {
+    transform: translateY(0);
+    color: rgb(160, 101, 255);
+  }
+  50% {
+    transform: translateY(-10px);
+    color: rgb(32, 255, 244);
+  }
+  100% {
+    transform: translateY(0);
+    color: rgb(50, 142, 255);
+  }
+}
+
+@keyframes moveUpBorder {
+  0% {
+    transform: translateY(0);
+    border: 2px solid rgb(90, 255, 131);
+  }
+  50% {
+    transform: translateY(-8px);
+    border: 2px solid rgb(255, 92, 222);
+  }
+  100% {
+    transform: translateY(0);
+    border: 2px solid rgb(32, 229, 255);
+  }
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 10rem;
+  background-color: #333;
+  opacity: 0;
+}
+
+.top {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.top h1 {
+  font-size: 60px;
+  padding: 0;
+  margin: 0;
+  animation: moveUpTop 3s infinite ease-in-out;
+}
+
+.top p {
+  opacity: 0.5;
+  font-size: 18px;
+  animation: moveCommon 3.4s infinite ease-in-out;
+}
+
+.bigblock {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 3rem 1rem;
+  box-sizing: border-box;
+  justify-items: center;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.block {
+  width: 13rem;
+  height: 13rem;
+  background-color: rgb(112, 112, 238);
+  transition: all 0.3s ease;
+  border: 2px #333 solid;
+  border-radius: 1rem;
+  animation: moveUpBorder 3.2s infinite ease-in-out;
+}
+
+.block:hover {
+  width: 14rem;
+  transform: translateY(0.3rem) scale(0.99);
+}
+
+@media (max-width: 768px) {
+  .navi {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .top {
+    width: 80%;
+  }
+
+  .top h1 {
+    font-size: 40px;
+  }
+
+  .top p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top h1 {
+    font-size: 30px;
+  }
+
+  .top p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: Arial;
+  background:url('/images/desktop.jpg');
+  box-sizing: border-box;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.about-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: Arial;
+  background:url('/images/forest2.jpg');
+  box-sizing: border-box;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-blend-mode: soft-light;
+}
+
+.lab-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: Arial;
+  background:url('/images/sci.jpg');
+  box-sizing: border-box;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+main {
+  padding: 0 3rem;
+  max-width: 90vw;
+  width: 80vw;
+  display: flex;
+}
+
+
