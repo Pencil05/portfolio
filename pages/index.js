@@ -47,10 +47,10 @@ export default function Home() {
             <p className={`${styles.gr2}`}>you can call me Pooh :)</p>
           </div>
           <div className={`${styles.icon}`}>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/poowadach.homhuan/" target="_blank" rel="noopener noreferrer">
               <img src="images/fb.png" className={styles.iconpig} />
             </a>
-            <a href="https://www.instargram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/iam.pooh555?igsh=YW16MHYxZjhnbWI4" target="_blank" rel="noopener noreferrer">
               <img src="images/ig.png" className={styles.iconpig2} />
             </a>            
             <a href="https://github.com/Pencil05" target="_blank" rel="noopener noreferrer">
