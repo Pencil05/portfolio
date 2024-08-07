@@ -80,7 +80,7 @@ export default function home(){
                             </div>
                         </div>
                         </Link>
-                        <Link href={'https://jarskin.netlify.app/'}>
+                        <Link href={'https://www.roblox.com/games/16365076003/CAPITAL'}>
                         <div className={`${styles.block4}`}>
                         <div className={`${styles.blocktext}`}>
                                 <h1>
