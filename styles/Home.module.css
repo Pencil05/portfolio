@@ -64,17 +64,37 @@
   }
 }
 
-@keyframes moveUpBorder {
+@keyframes moveUpBorder2 {
   0% {
     transform: translateY(0);
+    transform: translateX(3);
     border: 2px solid rgb(90, 255, 131);
   }
   50% {
-    transform: translateY(-8px);
+    transform: translateY(-10px);
+    transform: translateX(-8px);
     border: 2px solid rgb(255, 92, 222);
   }
   100% {
     transform: translateY(0);
+    transform: translateX(3);
+    border: 2px solid rgb(32, 229, 255);
+  }
+}
+@keyframes moveUpBorder {
+  0% {
+    transform: translateY(0);
+    transform: translateX(8);
+    border: 2px solid rgb(90, 255, 131);
+  }
+  50% {
+    transform: translateY(10);
+    transform: translateX(-8px);
+    border: 2px solid rgb(255, 92, 222);
+  }
+  100% {
+    transform: translateY(0);
+    transform: translateX(8);
     border: 2px solid rgb(32, 229, 255);
   }
 }
@@ -118,17 +138,67 @@
   margin: 0 auto;
 }
 
-.block {
+.blocktext {
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.blocktext h1{
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+  background-color: #333;
+  opacity: .6;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nondec{
+  text-decoration: none;
+}
+
+.block{
+  animation: moveUpBorder2 3.2s infinite ease-in-out;
+  background: url('/images/jarskin.png');
+}
+.block1{
+  animation: moveUpBorder 3.8s infinite ease-in-out;
+  background: url('/images/wha.jpg');
+}
+.block2{
+  animation: moveUpBorder2 3.4s infinite ease-in-out;
+  background: url('/images/cop.png');
+}
+.block3{
+  animation: moveUpBorder 3.6s infinite ease-in-out;
+  background: url('/images/doge.jpg');
+}
+.block4{
+  animation: moveUpBorder2 3.1s infinite ease-in-out;
+  background: url('/images/rb.jpg');
+}
+.block5{
+  background: url('/images/deerwall.jpg');
+  animation: moveUpBorder 3.3s infinite ease-in-out;
+}
+
+.block,.block1,.block2,.block3,.block4,.block5{
   width: 13rem;
   height: 13rem;
   background-color: rgb(112, 112, 238);
   transition: all 0.3s ease;
   border: 2px #333 solid;
   border-radius: 1rem;
-  animation: moveUpBorder 3.2s infinite ease-in-out;
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.block:hover {
+.block:hover ,.block1:hover ,.block2:hover ,.block3:hover,.block4:hover,.block5:hover{
   width: 14rem;
   transform: translateY(0.3rem) scale(0.99);
 }

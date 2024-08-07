@@ -154,8 +154,15 @@
 }
 
 .blocktext {
+  padding: 0 1rem;
+  border-radius: 2rem;
+  color: #00fbff;
   margin-top: 5%;
   text-align: center;
+  background-color: #333;
+  opacity: .5;
+  animation: moveCommon 3s infinite ease-in-out;
+
 }
 
 /* .blocktext h1{
@@ -163,13 +170,47 @@
 } */
 
 
-.block {
+
+
+.block:hover ,.block1:hover ,.block2:hover ,.block3:hover,
+.block4:hover,.block5:hover,.block6:hover,.block7:hover{
+  width: 23rem;
+  transform: translateY(0.3rem) scale(0.99);
+}
+
+.block{
+  background: url('/images/smt.jpg');
+}
+.block1{
+  background: url('/images/rpgm.jpg');
+}
+.block2{
+  background: url('/images/mju.jpg');
+}
+.block3{
+  background: url('/images/cop.png');
+}
+.block4{
+  background: url('/images/rb.jpg');
+}
+.block5{
+  background: url('/images/doge.jpg');
+}
+.block6{
+  background: url('/images/jarskin.png');
+}
+.block7{
+  background: url('/images/deerwall.jpg');
+}
+
+.block,.block1,.block2,
+.block3,.block4,.block5 ,
+.block6,.block7{
   width: 22rem;
   height: 12rem;
   transition: all 0.3s ease;
   border: 2px #efff0c solid;
   border-radius: 1rem;
-  background: url('/images/sci.jpg');
   box-sizing: border-box;
   background-size: cover;
   background-position: center;
@@ -177,15 +218,11 @@
   animation: moveUpBorder 3s infinite ease-in-out;
 }
 
-.block:hover {
-  width: 23rem;
-  transform: translateY(0.3rem) scale(0.99);
-}
-
 @media (min-width: 769px) {
 
 
-  .block:hover {
+  .block:hover ,.block1:hover ,.block2:hover ,.block3:hover,
+  .block4:hover,.block5:hover,.block6:hover,.block7:hover{
     width: 21rem;
     transform: translateY(0.3rem) scale(0.99);
   }
@@ -210,7 +247,9 @@
     font-size: 16px;
   }
 
-  .block {
+  .block,.block1,.block2,
+  .block3,.block4,.block5 ,
+  .block6,.block7{
     width: 14rem;
     height: 8rem;
   }
@@ -218,8 +257,8 @@
   .blocktext h1{
     font-size: 14px;
   }
-
-  .block:hover {
+  .block:hover ,.block1:hover ,.block2:hover ,.block3:hover,
+  .block4:hover,.block5:hover,.block6:hover,.block7:hover{
     /* height: 95%; */
     width: 15rem;
   }
@@ -243,12 +282,15 @@
     font-size: 14px;
   }
 
-  .block {
+  .block,.block1,.block2,
+  .block3,.block4,.block5 ,
+  .block6,.block7{
     width: 14rem;
     height: 8rem;
   }
 
-  .block:hover {
-    width: 15rem;
+  .block:hover ,.block1:hover ,.block2:hover ,.block3:hover,
+  .block4:hover,.block5:hover,.block6:hover,.block7:hover{
+      width: 15rem;
   }
 }
