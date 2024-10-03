@@ -89,7 +89,7 @@ export default function home(){
                             </div>
                         </div>
                         </Link>
-                        <Link href={'https://jarskin.netlify.app/'}>
+                        <Link href={'https://deetblox.vercel.app/'}>
                         <div className={`${styles.block5}`}>
                         <div className={`${styles.blocktext}`}>
                                 <h1>
