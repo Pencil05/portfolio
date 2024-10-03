@@ -80,11 +80,11 @@ export default function home(){
                             </div>
                         </div>
                         </Link>
-                        <Link href={'https://www.roblox.com/games/16365076003/CAPITAL'}>
+                        <Link href={'https://www.roblox.com/games/17654782396/DeerBlox'}>
                         <div className={`${styles.block4}`}>
                         <div className={`${styles.blocktext}`}>
                                 <h1>
-                                Roblox MydeerObby
+                                Roblox Map DeerBlox
                                 </h1>
                             </div>
                         </div>
@@ -93,7 +93,7 @@ export default function home(){
                         <div className={`${styles.block5}`}>
                         <div className={`${styles.blocktext}`}>
                                 <h1>
-                                MydeerObby website
+                                DeerBloxWiKi
                                 </h1>
                             </div>
                         </div>

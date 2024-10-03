@@ -33,7 +33,7 @@
 }
 
 .linknav1:hover, .linknav2:hover, .linknav3:hover {
-  margin-top: 0.3rem;
+  transform: translateY(0.3rem);
 }
 
 .logo {
@@ -97,6 +97,8 @@
 
 .iconpig:hover, .iconpig2:hover, .iconpig3:hover {
   width: 55px;
+  transform: translateY(0.3rem);
+
 }
 
 .gosite {

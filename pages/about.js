@@ -99,7 +99,7 @@ I like to create innovative things. XD
                         <div className={`${styles.blocktext}`}>
                             <h1>
                             2022, Make game with Roblox Studio. 
-                            (MydeerObby)  
+                            (DeerBlox Map)  
                             </h1>
                         </div>
                     </div>
@@ -107,7 +107,7 @@ I like to create innovative things. XD
                         <div className={`${styles.block7}`}></div>
                         <div className={`${styles.blocktext}`}>
                             <h1>
-                            2022, Create website for MydeerObby game.
+                            2022, Create website for DeerBlox game.
                             </h1>
                         </div>
                     </div>
