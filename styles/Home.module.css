@@ -184,8 +184,16 @@
   background: url('/images/deerwall.jpg');
   animation: moveUpBorder 3.3s infinite ease-in-out;
 }
+.block6{
+  background: url('/images/crud.png');
+  animation: moveUpBorder 3.3s infinite ease-in-out;
+}
+.block7{
+  background: url('/images/loginx.png');
+  animation: moveUpBorder 3.3s infinite ease-in-out;
+}
 
-.block,.block1,.block2,.block3,.block4,.block5{
+.block,.block1,.block2,.block3,.block4,.block5,.block6,.block7{
   width: 13rem;
   height: 13rem;
   background-color: rgb(112, 112, 238);
@@ -198,7 +206,7 @@
   background-repeat: no-repeat;
 }
 
-.block:hover ,.block1:hover ,.block2:hover ,.block3:hover,.block4:hover,.block5:hover{
+.block:hover ,.block1:hover ,.block2:hover ,.block3:hover,.block4:hover,.block5:hover,.block6:hover,.block7:hover{
   width: 14rem;
   /* transform: translateY(0.3rem) scale(0.99); */
   transform: translateY(0.3rem);

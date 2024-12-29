@@ -58,9 +58,9 @@ export default function Home() {
             </a>
           </div>
           <div className={`${styles.gosite}`}>
-          <Link href="/" className={`${styles.gosite}`}> 
+          <Link href="lab" className={`${styles.gosite}`}> 
             <button className="">
-              site
+              myLab
             </button>
           </Link>
           </div>

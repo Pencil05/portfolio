@@ -98,6 +98,24 @@ export default function home(){
                             </div>
                         </div>
                         </Link>
+                        <Link href={'https://poop-crud.vercel.app/'}>
+                        <div className={`${styles.block6}`}>
+                        <div className={`${styles.blocktext}`}>
+                                <h1>
+                                CRUD/NexJS+MongoDB
+                                </h1>
+                            </div>
+                        </div>
+                        </Link>
+                        <Link href={'https://loginstp.vercel.app/'}>
+                        <div className={`${styles.block7}`}>
+                        <div className={`${styles.blocktext}`}>
+                                <h1>
+                                Login System
+                                </h1>
+                            </div>
+                        </div>
+                        </Link>
                     </div>
 
 
